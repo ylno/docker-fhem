@@ -5,7 +5,7 @@ ARG VERSION
 ENV PERL_MM_USE_DEFAULT=1
 
 RUN \
-apk add --update bash perl wget apkbuild-cpan perl-list-moreutils \
+apk add --update bash perl wget apkbuild-cpan perl-list-moreutils perl-crypt-rijndael \
 && adduser -S fhem \
 && mkdir /fhem && cd /fhem \
 && wget http://fhem.de/fhem-5.7.tar.gz  \
