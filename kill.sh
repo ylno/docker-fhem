@@ -1,3 +1,3 @@
-docker kill mfrankl/fhem
-docker rm mfrankl/fhem
+docker kill fhem
+docker rm fhem
 docker rmi mfrankl/fhem
